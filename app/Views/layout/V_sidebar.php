@@ -2,7 +2,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
   <a href="index3.html" class="brand-link">
-    <img src="<?= base_url() ?>/template/dist/img/denso.png" alt="denso Logo" class="brand-image ">
+    <img src="/template/dist/img/denso.png" alt="denso Logo" class="brand-image ">
     <span class="brand-text font-weight-light">Quality</span>
   </a>
 
@@ -11,7 +11,7 @@
     <!-- Sidebar user panel (optional) -->
     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
       <div class="image">
-        <img src="<?= base_url() ?>/template/dist/img/user.png" class="img-circle elevation-2" alt="User Image">
+        <img src="/template/dist/img/user.png" class="img-circle elevation-2" alt="User Image">
       </div>
       <div class="info">
         <a href="#" class="d-block">Alexander Pierce</a>

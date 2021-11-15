@@ -31,7 +31,14 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+$routes->get('/', 'pages\C_Dashboard::index');
+$routes->get('/pages', 'pages\C_Dashboard::index');
+$routes->get('/pages/(:any)', 'pages\C_Dashboard::detail/$1');
+$routes->get('/tambah', 'pages\C_Dashboard::tambah');
+$routes->post('/simpan', 'pages\C_Dashboard::simpan');
+$routes->delete('/hapus/(:num)', 'pages\C_Dashboard::hapus/$1');
+$routes->post('/ubah/(:num)', 'pages\C_Dashboard::ubah/$1');
+
 
 /*
  * --------------------------------------------------------------------
